@@ -1,0 +1,222 @@
+﻿@page
+@model Cap01App.Pages.UrunlerPages.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Distid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Urunref)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Birimsetid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Isyeriid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Kodu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Adi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Kisaadi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Tur)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Barkod)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Uretici)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Muadil)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Kategoriid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Imgurl1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Imgurl2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Imgurl3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Imgurl4)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Imgurl5)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Ozelalan1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Ozelalan2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Ozelalan3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Ozelalan4)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Ozelalan5)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Aciklama)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Durum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Kayittarihi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Kdvalis)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Kdvsatis)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Psku)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Yenimi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Yetkikodu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Grupkodu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urunler[0].Songuncelleme)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Urunler) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Distid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Urunref)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Birimsetid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Isyeriid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kodu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Adi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kisaadi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tur)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Barkod)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Uretici)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Muadil)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kategoriid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Imgurl1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Imgurl2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Imgurl3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Imgurl4)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Imgurl5)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ozelalan1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ozelalan2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ozelalan3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ozelalan4)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ozelalan5)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Aciklama)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Durum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kayittarihi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kdvalis)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kdvsatis)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Psku)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Yenimi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Yetkikodu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Grupkodu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Songuncelleme)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

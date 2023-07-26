@@ -1,0 +1,211 @@
+﻿@page
+@model Cap01App.Pages.UrunlerPages.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Urunler</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Distid)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Distid)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Urunref)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Urunref)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Birimsetid)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Birimsetid)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Isyeriid)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Isyeriid)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Kodu)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Kodu)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Adi)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Adi)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Kisaadi)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Kisaadi)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Tur)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Tur)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Barkod)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Barkod)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Uretici)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Uretici)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Muadil)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Muadil)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Kategoriid)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Kategoriid)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Imgurl1)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Imgurl1)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Imgurl2)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Imgurl2)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Imgurl3)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Imgurl3)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Imgurl4)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Imgurl4)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Imgurl5)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Imgurl5)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Ozelalan1)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Ozelalan1)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Ozelalan2)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Ozelalan2)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Ozelalan3)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Ozelalan3)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Ozelalan4)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Ozelalan4)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Ozelalan5)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Ozelalan5)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Aciklama)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Aciklama)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Durum)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Durum)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Kayittarihi)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Kayittarihi)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Kdvalis)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Kdvalis)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Kdvsatis)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Kdvsatis)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Psku)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Psku)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Yenimi)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Yenimi)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Yetkikodu)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Yetkikodu)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Grupkodu)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Grupkodu)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Urunler.Songuncelleme)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Urunler.Songuncelleme)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Urunler?.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

@@ -1,0 +1,190 @@
+﻿@page
+@model Cap01App.Pages.UrunlerPages.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Urunler</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Urunler.Id" />
+            <div class="form-group">
+                <label asp-for="Urunler.Distid" class="control-label"></label>
+                <input asp-for="Urunler.Distid" class="form-control" />
+                <span asp-validation-for="Urunler.Distid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Urunref" class="control-label"></label>
+                <input asp-for="Urunler.Urunref" class="form-control" />
+                <span asp-validation-for="Urunler.Urunref" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Birimsetid" class="control-label"></label>
+                <input asp-for="Urunler.Birimsetid" class="form-control" />
+                <span asp-validation-for="Urunler.Birimsetid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Isyeriid" class="control-label"></label>
+                <input asp-for="Urunler.Isyeriid" class="form-control" />
+                <span asp-validation-for="Urunler.Isyeriid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Kodu" class="control-label"></label>
+                <input asp-for="Urunler.Kodu" class="form-control" />
+                <span asp-validation-for="Urunler.Kodu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Adi" class="control-label"></label>
+                <input asp-for="Urunler.Adi" class="form-control" />
+                <span asp-validation-for="Urunler.Adi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Kisaadi" class="control-label"></label>
+                <input asp-for="Urunler.Kisaadi" class="form-control" />
+                <span asp-validation-for="Urunler.Kisaadi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Tur" class="control-label"></label>
+                <input asp-for="Urunler.Tur" class="form-control" />
+                <span asp-validation-for="Urunler.Tur" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Barkod" class="control-label"></label>
+                <input asp-for="Urunler.Barkod" class="form-control" />
+                <span asp-validation-for="Urunler.Barkod" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Uretici" class="control-label"></label>
+                <input asp-for="Urunler.Uretici" class="form-control" />
+                <span asp-validation-for="Urunler.Uretici" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Muadil" class="control-label"></label>
+                <input asp-for="Urunler.Muadil" class="form-control" />
+                <span asp-validation-for="Urunler.Muadil" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Kategoriid" class="control-label"></label>
+                <input asp-for="Urunler.Kategoriid" class="form-control" />
+                <span asp-validation-for="Urunler.Kategoriid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Imgurl1" class="control-label"></label>
+                <input asp-for="Urunler.Imgurl1" class="form-control" />
+                <span asp-validation-for="Urunler.Imgurl1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Imgurl2" class="control-label"></label>
+                <input asp-for="Urunler.Imgurl2" class="form-control" />
+                <span asp-validation-for="Urunler.Imgurl2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Imgurl3" class="control-label"></label>
+                <input asp-for="Urunler.Imgurl3" class="form-control" />
+                <span asp-validation-for="Urunler.Imgurl3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Imgurl4" class="control-label"></label>
+                <input asp-for="Urunler.Imgurl4" class="form-control" />
+                <span asp-validation-for="Urunler.Imgurl4" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Imgurl5" class="control-label"></label>
+                <input asp-for="Urunler.Imgurl5" class="form-control" />
+                <span asp-validation-for="Urunler.Imgurl5" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Ozelalan1" class="control-label"></label>
+                <input asp-for="Urunler.Ozelalan1" class="form-control" />
+                <span asp-validation-for="Urunler.Ozelalan1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Ozelalan2" class="control-label"></label>
+                <input asp-for="Urunler.Ozelalan2" class="form-control" />
+                <span asp-validation-for="Urunler.Ozelalan2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Ozelalan3" class="control-label"></label>
+                <input asp-for="Urunler.Ozelalan3" class="form-control" />
+                <span asp-validation-for="Urunler.Ozelalan3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Ozelalan4" class="control-label"></label>
+                <input asp-for="Urunler.Ozelalan4" class="form-control" />
+                <span asp-validation-for="Urunler.Ozelalan4" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Ozelalan5" class="control-label"></label>
+                <input asp-for="Urunler.Ozelalan5" class="form-control" />
+                <span asp-validation-for="Urunler.Ozelalan5" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Aciklama" class="control-label"></label>
+                <input asp-for="Urunler.Aciklama" class="form-control" />
+                <span asp-validation-for="Urunler.Aciklama" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Durum" class="control-label"></label>
+                <input asp-for="Urunler.Durum" class="form-control" />
+                <span asp-validation-for="Urunler.Durum" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Kayittarihi" class="control-label"></label>
+                <input asp-for="Urunler.Kayittarihi" class="form-control" />
+                <span asp-validation-for="Urunler.Kayittarihi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Kdvalis" class="control-label"></label>
+                <input asp-for="Urunler.Kdvalis" class="form-control" />
+                <span asp-validation-for="Urunler.Kdvalis" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Kdvsatis" class="control-label"></label>
+                <input asp-for="Urunler.Kdvsatis" class="form-control" />
+                <span asp-validation-for="Urunler.Kdvsatis" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Psku" class="control-label"></label>
+                <input asp-for="Urunler.Psku" class="form-control" />
+                <span asp-validation-for="Urunler.Psku" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Yenimi" class="control-label"></label>
+                <input asp-for="Urunler.Yenimi" class="form-control" />
+                <span asp-validation-for="Urunler.Yenimi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Yetkikodu" class="control-label"></label>
+                <input asp-for="Urunler.Yetkikodu" class="form-control" />
+                <span asp-validation-for="Urunler.Yetkikodu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Grupkodu" class="control-label"></label>
+                <input asp-for="Urunler.Grupkodu" class="form-control" />
+                <span asp-validation-for="Urunler.Grupkodu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Urunler.Songuncelleme" class="control-label"></label>
+                <input asp-for="Urunler.Songuncelleme" class="form-control" />
+                <span asp-validation-for="Urunler.Songuncelleme" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
