@@ -1,0 +1,372 @@
+﻿@page
+@model Cap01App.Pages.CariHesaplar.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Distid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Cariref)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Kodu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Unvani)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Ozelalan1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Ozelalan2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Ozelalan3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Ozelalan4)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Ozelalan5)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Kanal1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Kanal2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Kanal3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Kanal4)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Kanal5)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Yetkikodu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Ticislgrb)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Durum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Ulke)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Sehir)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Ilce)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Adres)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Tel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Faks)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Ilgili)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Eposta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Gsm)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Ilgili2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Eposta2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Gsm2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Vno)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Vdairesi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Opkodu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Opaciklama)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Muhkodu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Efatura)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Latitude)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Longitude)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Sevkadresref)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Bolge)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Indirimkod)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Grupkodu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Kampanyakod)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Aktarim)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Onay)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Songuncelleme)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Fotograf1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Fotograf2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Fotograf3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Fotograf4)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Fotograf5)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Stid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Kayittarihi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Risklimiti)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Not)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].GuncellenecekMi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].GuncellendiMi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarilerT[0].Islem)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.CarilerT) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Distid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cariref)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kodu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Unvani)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ozelalan1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ozelalan2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ozelalan3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ozelalan4)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ozelalan5)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kanal1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kanal2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kanal3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kanal4)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kanal5)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Yetkikodu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ticislgrb)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Durum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ulke)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sehir)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ilce)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Adres)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Faks)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ilgili)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Eposta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gsm)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ilgili2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Eposta2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gsm2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Vno)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Vdairesi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Opkodu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Opaciklama)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Muhkodu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Efatura)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Latitude)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Longitude)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sevkadresref)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bolge)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Indirimkod)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Grupkodu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kampanyakod)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Aktarim)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Onay)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Songuncelleme)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fotograf1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fotograf2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fotograf3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fotograf4)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fotograf5)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Stid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kayittarihi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Risklimiti)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Not)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GuncellenecekMi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GuncellendiMi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Islem)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

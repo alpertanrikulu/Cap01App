@@ -1,0 +1,304 @@
+﻿@page
+@model Cap01App.Pages.CariHesaplar.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>CarilerT</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Distid" class="control-label"></label>
+                <input asp-for="CarilerT.Distid" class="form-control" />
+                <span asp-validation-for="CarilerT.Distid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Cariref" class="control-label"></label>
+                <input asp-for="CarilerT.Cariref" class="form-control" />
+                <span asp-validation-for="CarilerT.Cariref" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Kodu" class="control-label"></label>
+                <input asp-for="CarilerT.Kodu" class="form-control" />
+                <span asp-validation-for="CarilerT.Kodu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Unvani" class="control-label"></label>
+                <input asp-for="CarilerT.Unvani" class="form-control" />
+                <span asp-validation-for="CarilerT.Unvani" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Ozelalan1" class="control-label"></label>
+                <input asp-for="CarilerT.Ozelalan1" class="form-control" />
+                <span asp-validation-for="CarilerT.Ozelalan1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Ozelalan2" class="control-label"></label>
+                <input asp-for="CarilerT.Ozelalan2" class="form-control" />
+                <span asp-validation-for="CarilerT.Ozelalan2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Ozelalan3" class="control-label"></label>
+                <input asp-for="CarilerT.Ozelalan3" class="form-control" />
+                <span asp-validation-for="CarilerT.Ozelalan3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Ozelalan4" class="control-label"></label>
+                <input asp-for="CarilerT.Ozelalan4" class="form-control" />
+                <span asp-validation-for="CarilerT.Ozelalan4" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Ozelalan5" class="control-label"></label>
+                <input asp-for="CarilerT.Ozelalan5" class="form-control" />
+                <span asp-validation-for="CarilerT.Ozelalan5" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Kanal1" class="control-label"></label>
+                <input asp-for="CarilerT.Kanal1" class="form-control" />
+                <span asp-validation-for="CarilerT.Kanal1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Kanal2" class="control-label"></label>
+                <input asp-for="CarilerT.Kanal2" class="form-control" />
+                <span asp-validation-for="CarilerT.Kanal2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Kanal3" class="control-label"></label>
+                <input asp-for="CarilerT.Kanal3" class="form-control" />
+                <span asp-validation-for="CarilerT.Kanal3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Kanal4" class="control-label"></label>
+                <input asp-for="CarilerT.Kanal4" class="form-control" />
+                <span asp-validation-for="CarilerT.Kanal4" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Kanal5" class="control-label"></label>
+                <input asp-for="CarilerT.Kanal5" class="form-control" />
+                <span asp-validation-for="CarilerT.Kanal5" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Yetkikodu" class="control-label"></label>
+                <input asp-for="CarilerT.Yetkikodu" class="form-control" />
+                <span asp-validation-for="CarilerT.Yetkikodu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Ticislgrb" class="control-label"></label>
+                <input asp-for="CarilerT.Ticislgrb" class="form-control" />
+                <span asp-validation-for="CarilerT.Ticislgrb" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Durum" class="control-label"></label>
+                <input asp-for="CarilerT.Durum" class="form-control" />
+                <span asp-validation-for="CarilerT.Durum" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Ulke" class="control-label"></label>
+                <input asp-for="CarilerT.Ulke" class="form-control" />
+                <span asp-validation-for="CarilerT.Ulke" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Sehir" class="control-label"></label>
+                <input asp-for="CarilerT.Sehir" class="form-control" />
+                <span asp-validation-for="CarilerT.Sehir" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Ilce" class="control-label"></label>
+                <input asp-for="CarilerT.Ilce" class="form-control" />
+                <span asp-validation-for="CarilerT.Ilce" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Adres" class="control-label"></label>
+                <input asp-for="CarilerT.Adres" class="form-control" />
+                <span asp-validation-for="CarilerT.Adres" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Tel" class="control-label"></label>
+                <input asp-for="CarilerT.Tel" class="form-control" />
+                <span asp-validation-for="CarilerT.Tel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Faks" class="control-label"></label>
+                <input asp-for="CarilerT.Faks" class="form-control" />
+                <span asp-validation-for="CarilerT.Faks" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Ilgili" class="control-label"></label>
+                <input asp-for="CarilerT.Ilgili" class="form-control" />
+                <span asp-validation-for="CarilerT.Ilgili" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Eposta" class="control-label"></label>
+                <input asp-for="CarilerT.Eposta" class="form-control" />
+                <span asp-validation-for="CarilerT.Eposta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Gsm" class="control-label"></label>
+                <input asp-for="CarilerT.Gsm" class="form-control" />
+                <span asp-validation-for="CarilerT.Gsm" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Ilgili2" class="control-label"></label>
+                <input asp-for="CarilerT.Ilgili2" class="form-control" />
+                <span asp-validation-for="CarilerT.Ilgili2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Eposta2" class="control-label"></label>
+                <input asp-for="CarilerT.Eposta2" class="form-control" />
+                <span asp-validation-for="CarilerT.Eposta2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Gsm2" class="control-label"></label>
+                <input asp-for="CarilerT.Gsm2" class="form-control" />
+                <span asp-validation-for="CarilerT.Gsm2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Vno" class="control-label"></label>
+                <input asp-for="CarilerT.Vno" class="form-control" />
+                <span asp-validation-for="CarilerT.Vno" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Vdairesi" class="control-label"></label>
+                <input asp-for="CarilerT.Vdairesi" class="form-control" />
+                <span asp-validation-for="CarilerT.Vdairesi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Opkodu" class="control-label"></label>
+                <input asp-for="CarilerT.Opkodu" class="form-control" />
+                <span asp-validation-for="CarilerT.Opkodu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Opaciklama" class="control-label"></label>
+                <input asp-for="CarilerT.Opaciklama" class="form-control" />
+                <span asp-validation-for="CarilerT.Opaciklama" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Muhkodu" class="control-label"></label>
+                <input asp-for="CarilerT.Muhkodu" class="form-control" />
+                <span asp-validation-for="CarilerT.Muhkodu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Efatura" class="control-label"></label>
+                <input asp-for="CarilerT.Efatura" class="form-control" />
+                <span asp-validation-for="CarilerT.Efatura" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Latitude" class="control-label"></label>
+                <input asp-for="CarilerT.Latitude" class="form-control" />
+                <span asp-validation-for="CarilerT.Latitude" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Longitude" class="control-label"></label>
+                <input asp-for="CarilerT.Longitude" class="form-control" />
+                <span asp-validation-for="CarilerT.Longitude" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Sevkadresref" class="control-label"></label>
+                <input asp-for="CarilerT.Sevkadresref" class="form-control" />
+                <span asp-validation-for="CarilerT.Sevkadresref" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Bolge" class="control-label"></label>
+                <input asp-for="CarilerT.Bolge" class="form-control" />
+                <span asp-validation-for="CarilerT.Bolge" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Indirimkod" class="control-label"></label>
+                <input asp-for="CarilerT.Indirimkod" class="form-control" />
+                <span asp-validation-for="CarilerT.Indirimkod" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Grupkodu" class="control-label"></label>
+                <input asp-for="CarilerT.Grupkodu" class="form-control" />
+                <span asp-validation-for="CarilerT.Grupkodu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Kampanyakod" class="control-label"></label>
+                <input asp-for="CarilerT.Kampanyakod" class="form-control" />
+                <span asp-validation-for="CarilerT.Kampanyakod" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Aktarim" class="control-label"></label>
+                <input asp-for="CarilerT.Aktarim" class="form-control" />
+                <span asp-validation-for="CarilerT.Aktarim" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Onay" class="control-label"></label>
+                <input asp-for="CarilerT.Onay" class="form-control" />
+                <span asp-validation-for="CarilerT.Onay" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Songuncelleme" class="control-label"></label>
+                <input asp-for="CarilerT.Songuncelleme" class="form-control" />
+                <span asp-validation-for="CarilerT.Songuncelleme" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Fotograf1" class="control-label"></label>
+                <input asp-for="CarilerT.Fotograf1" class="form-control" />
+                <span asp-validation-for="CarilerT.Fotograf1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Fotograf2" class="control-label"></label>
+                <input asp-for="CarilerT.Fotograf2" class="form-control" />
+                <span asp-validation-for="CarilerT.Fotograf2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Fotograf3" class="control-label"></label>
+                <input asp-for="CarilerT.Fotograf3" class="form-control" />
+                <span asp-validation-for="CarilerT.Fotograf3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Fotograf4" class="control-label"></label>
+                <input asp-for="CarilerT.Fotograf4" class="form-control" />
+                <span asp-validation-for="CarilerT.Fotograf4" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Fotograf5" class="control-label"></label>
+                <input asp-for="CarilerT.Fotograf5" class="form-control" />
+                <span asp-validation-for="CarilerT.Fotograf5" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Stid" class="control-label"></label>
+                <input asp-for="CarilerT.Stid" class="form-control" />
+                <span asp-validation-for="CarilerT.Stid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Kayittarihi" class="control-label"></label>
+                <input asp-for="CarilerT.Kayittarihi" class="form-control" />
+                <span asp-validation-for="CarilerT.Kayittarihi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.GuncellenecekMi" class="control-label"></label>
+                <input asp-for="CarilerT.GuncellenecekMi" class="form-control" />
+                <span asp-validation-for="CarilerT.GuncellenecekMi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.GuncellendiMi" class="control-label"></label>
+                <input asp-for="CarilerT.GuncellendiMi" class="form-control" />
+                <span asp-validation-for="CarilerT.GuncellendiMi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarilerT.Islem" class="control-label"></label>
+                <input asp-for="CarilerT.Islem" class="form-control" />
+                <span asp-validation-for="CarilerT.Islem" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,6 +1,9 @@
-var builder = WebApplication.CreateBuilder(args);
+using Cap01App.Models;
+using Microsoft.EntityFrameworkCore;
 
-// Add services to the container.
+var builder = WebApplication.CreateBuilder(args);
+string connStr = builder.Configuration.GetConnectionString("connStr");
+builder.Services.AddDbContext<SLeaderDemoContext>(option => option.UseSqlServer(connStr));
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
